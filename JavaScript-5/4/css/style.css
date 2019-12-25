@@ -1,0 +1,51 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.products {
+  margin: 200px 0 0 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.products_card {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.desc {
+  display: none;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+button {
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+@keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
